@@ -330,7 +330,7 @@ function TrinketMenu.ProcessAutoQueue(which)
 	end
 	local buff = GetItemSpell(id)
 	if buff then
-		if UnitAura("player",buff) or (start > 0 and (duration - timeLeft) > 30 and timeLeft < 1) then
+		if AuraUtil.FindAuraByName(buff,"player") or (start > 0 and (duration - timeLeft) > 30 and timeLeft < 1) then
 			icon:SetDesaturated(true)
 			return
 		end
