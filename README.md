@@ -2,7 +2,6 @@
 The Trinket Menu addon for WoW, updated for Classic WoW 1.13
 
 I have used the addon over at https://www.wowinterface.com/downloads/info24977-TrinketMenuClassic.html as a base.
-The author of that update never kept it maintained.
 
 Refer to readme.txt for the original addons instructions and update history.
 
