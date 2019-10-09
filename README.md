@@ -7,4 +7,5 @@ Refer to readme.txt for the original addons instructions and update history.
 
 Instructions in short:
 Mouse over the window for the selectable trinkets to pop up. Left click for top trinket, right click for bottom trinket.
-Rightclick the background around the trinket slots to change between Left/Right and Top/Bottom layout.
+Rightclick the background around the trinket slots to change between Left/Right and Top/Bottom layout on the equippable trinkets.
+Middlemouseclick the background around the trinket slots to change between Left/Right and Top/Bottom layout on the equipped trinkets.
