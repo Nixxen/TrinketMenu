@@ -321,7 +321,26 @@ end
 
 -- returns true if the player is really dead or ghost, not merely FD
 function TrinketMenu.IsPlayerReallyDead()
-	return UnitIsDeadOrGhost("player")
+	-- Added hackjob to check for FD debuff
+	FD=false
+    for i=1,40 do 
+        local _,_,_,_,_,_,_,_,_,ID=UnitBuff("player",i);
+		if ID==5384 then
+            FD=true
+        end
+	end
+	if UnitIsDeadOrGhost("player") then
+		if FD then
+			--  print("UnitIsDead and FD is true, return False")
+			return false
+		else
+			-- print("UnitIsDead and FD is false, return true")
+			return true
+		end
+	else 
+		-- print("Alive and FD irrelevant, return False")
+		return false
+	end
 end
 
 function TrinketMenu.ItemInfo(slot)
