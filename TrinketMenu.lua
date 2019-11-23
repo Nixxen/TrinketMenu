@@ -1,4 +1,4 @@
-﻿--[[ TrinketMenu 1.13.2.2 ]]--
+﻿--[[ TrinketMenu Classic ]]--
 
 TrinketMenu = { }
 
@@ -57,7 +57,7 @@ end
 
 --[[ Misc Variables ]]--
 
-TrinketMenu_Version = "1.13.2.2"
+TrinketMenu_Version = GetAddOnMetadata( 'TrinketMenu', 'Version' );
 BINDING_HEADER_TRINKETMENU = "TrinketMenu"
 setglobal("BINDING_NAME_CLICK TrinketMenu_Trinket0:LeftButton", "Use Top Trinket")
 setglobal("BINDING_NAME_CLICK TrinketMenu_Trinket1:LeftButton", "Use Bottom Trinket")
