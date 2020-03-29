@@ -333,7 +333,7 @@ end
 
 -- returns true if the player is really dead or ghost, not merely FD
 function TrinketMenu.IsPlayerReallyDead()
-	-- Added hackjob to check for FD debuff
+	-- Added hackjob to check for FD debuff (by Nixxen)	
 	FD=false
     for i=1,40 do 
         local _,_,_,_,_,_,_,_,_,ID=UnitBuff("player",i);
@@ -622,6 +622,9 @@ function TrinketMenu.TimersFrame_OnUpdate(elapsed)
 			end
 		end
 	end
+	if TrinketMenu.PeriodicQueueCheck then
+		TrinketMenu.PeriodicQueueCheck()
+	end -- Check for auto queue
 end
 
 function TrinketMenu.TimerDebug()
@@ -1130,9 +1133,6 @@ function TrinketMenu.CooldownUpdate()
 		if TrinketMenu_MenuFrame:IsVisible() then
 			TrinketMenu.WriteMenuCooldowns()
 		end
-	end
-	if TrinketMenu.PeriodicQueueCheck then
-		TrinketMenu.PeriodicQueueCheck()
 	end
 end
 
