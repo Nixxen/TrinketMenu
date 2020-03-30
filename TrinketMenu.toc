@@ -1,6 +1,6 @@
 ## Interface: 11304
-## Title: TrinketMenu |cFF99CC01rev|r |cFFFF00001.13.2|r
-## Version: 1.13.4.1
+## Title: TrinketMenu |cFF99CC01rev|r |cFFFF00001.13.4|r
+## Version: 1.13.4.2
 ## Author: Gello, Resike, Nixxen
 ## Notes: Addon to manage trinkets.
 ## SavedVariables: TrinketMenuOptions
