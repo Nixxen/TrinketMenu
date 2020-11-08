@@ -1,0 +1,10 @@
+package-as: Trinketmenu
+
+manual-changelog:
+  filename: changelog.md
+  markup-type: markdown
+
+
+move-folders:
+  Trinketmenu/Trinketmenu: Trinketmenu
+
