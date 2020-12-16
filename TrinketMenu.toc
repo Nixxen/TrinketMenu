@@ -6,6 +6,8 @@
 ## SavedVariables: TrinketMenuOptions
 ## SavedVariablesPerCharacter: TrinketMenuPerOptions, TrinketMenuQueue
 
+Libs\LibStub\LibStub.lua
+
 TrinketMenu.lua
 TrinketMenu.xml
 TrinketMenuOpt.lua
