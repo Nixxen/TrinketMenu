@@ -1,0 +1,16 @@
+## Interface: 20501
+## Title: TrinketMenu |cFF99CC01rev|r |cFFFF0000Classic|r
+## Version: 1.13.4.4
+## Author: Gello, Resike, Nixxen
+## Notes: Addon to manage trinkets.
+## SavedVariables: TrinketMenuOptions
+## SavedVariablesPerCharacter: TrinketMenuPerOptions, TrinketMenuQueue
+
+Libs\LibStub\LibStub.lua
+
+TrinketMenu.lua
+BCC\TrinketMenu.xml
+TrinketMenuOpt.lua
+BCC\TrinketMenuOpt.xml
+TrinketMenuQueue.lua
+BCC\TrinketMenuQueue.xml
