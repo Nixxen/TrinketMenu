@@ -82,7 +82,7 @@
 		<PushedTexture file = "Interface\AddOns\TrinketMenu\Textures\TrinketMenu-Icon-Down"/>
 		<HighlightTexture alphaMode = "ADD" file = "Interface\Minimap\UI-Minimap-ZoomButton-Highlight"/>
 	</Button>
-	<Frame name = "TrinketMenu_OptFrame" parent = "UIParent" movable = "true" toplevel = "true" clampedToScreen = "true" hidden = "true">
+	<Frame name = "TrinketMenu_OptFrame" parent = "UIParent" movable = "true" toplevel = "true" clampedToScreen = "true" hidden = "true" inherits="BackdropTemplate">
 		<Size x = "300" y = "336"/>
 		<Anchors>
 			<Anchor point = "CENTER"/>
@@ -169,7 +169,7 @@
 					</Anchor>
 				</Anchors>
 			</Button>
-			<Frame name = "TrinketMenu_SubOptFrame" hidden = "true">
+			<Frame name = "TrinketMenu_SubOptFrame" hidden = "true" inherits="BackdropTemplate">
 				<Anchors>
 					<Anchor point = "TOPLEFT">
 						<Offset>

@@ -69,7 +69,7 @@
 		</Layers>
 	</Frame>
 	<!-- MainFrame: Equipped Trinkets -->
-	<Frame name = "TrinketMenu_MainFrame" toplevel = "true" frameStrata = "BACKGROUND" enableMouse = "true" movable = "true" parent = "UIParent" hidden = "true">
+	<Frame name = "TrinketMenu_MainFrame" toplevel = "true" frameStrata = "BACKGROUND" enableMouse = "true" movable = "true" parent = "UIParent" hidden = "true" inherits="BackdropTemplate">
 		<Size>
 			<AbsDimension x = "91" y = "52" />
 		</Size>
@@ -182,7 +182,7 @@
 		</Scripts>
 	</Frame>
 	<!-- MenuFrame: Bagged Trinkets -->
-	<Frame name = "TrinketMenu_MenuFrame" toplevel = "true" frameStrata = "HIGH" enableMouse = "true" movable = "true" parent = "UIParent" hidden = "true" clampedToScreen = "true">
+	<Frame name = "TrinketMenu_MenuFrame" toplevel = "true" frameStrata = "HIGH" enableMouse = "true" movable = "true" parent = "UIParent" hidden = "true" clampedToScreen = "true" inherits="BackdropTemplate">
 		<Size>
 			<AbsDimension x = "52" y = "91" />
 		</Size>

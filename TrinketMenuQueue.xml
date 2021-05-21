@@ -176,7 +176,7 @@
 		</Anchors>
 	</CheckButton>
 
-	<Frame name = "TrinketMenu_SubQueueFrame" parent = "TrinketMenu_OptFrame" hidden = "true">
+	<Frame name = "TrinketMenu_SubQueueFrame" parent = "TrinketMenu_OptFrame" hidden = "true" inherits="BackdropTemplate">
 		<Anchors>
 			<Anchor point = "TOPLEFT">
 				<Offset>
@@ -439,7 +439,7 @@
 				</Scripts>
 			</CheckButton>
 
-			<Frame name = "TrinketMenu_SortListFrame">
+			<Frame name = "TrinketMenu_SortListFrame" inherits="BackdropTemplate">
 				<Anchors>
 					<Anchor point = "TOPLEFT">
 						<Offset>
@@ -569,7 +569,7 @@
 				</Frames>
 			</Frame>
 
-			<Frame name = "TrinketMenu_ProfilesFrame" hidden = "true">
+			<Frame name = "TrinketMenu_ProfilesFrame" hidden = "true" inherits="BackdropTemplate">
 				<Anchors>
 					<Anchor point = "TOPLEFT">
 						<Offset>
@@ -722,7 +722,7 @@
 							</Anchor>
 						</Anchors>
 					</Button>
-					<Frame name = "TrinketMenu_ProfilesListFrame">
+					<Frame name = "TrinketMenu_ProfilesListFrame" inherits="BackdropTemplate">
 						<Anchors>
 							<Anchor point = "TOPLEFT">
 								<Offset>
