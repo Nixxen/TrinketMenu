@@ -274,6 +274,7 @@ function TrinketMenu.Initialize()
 	TrinketMenuPerOptions.Hidden = TrinketMenuPerOptions.Hidden or { }
 	options.MenuOnRight = options.MenuOnRight or "OFF" -- 3.61
 	if TrinketMenuPerOptions.XPos and TrinketMenuPerOptions.YPos then
+		TrinketMenu_MainFrame:ClearAllPoints();
 		TrinketMenu_MainFrame:SetPoint("TOPLEFT", "UIParent", "BOTTOMLEFT", TrinketMenuPerOptions.XPos, TrinketMenuPerOptions.YPos)
 	end
 	if TrinketMenuPerOptions.MainScale then
